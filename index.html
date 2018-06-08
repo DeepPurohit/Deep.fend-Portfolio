@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+            <div class="nav_toggle">
+                    <a href="#">&#x2630;</a>
+            </div>
+        <div class="logo">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="nav">
+            <ul class="nav-item">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#about" id="abt">About Me</a></li>
+                <li><a href="#ws" id="w_s">Work Samples</a></li>
+                <li><a href="#contact" id="cnt">Contact</a></li>
+            </ul>
+        </div>
+        <div class="name">
+            <h3>Deep Kumar Purohit</h3>
+            <p>Front-End Developer</p>
+        </div>
+    </div>
+
+    <!-- intro body -->
+    <div class="container">
+            <div class="pic"> 
+                <img src="images/deep.jpg" alt="image">
+            </div>
+            <div class="intro">
+
+                <h2 class="heading" id="about">About Me</h2>
+
+                <p>
+                    I am a proud KVian.
+                </p>
+                <br>
+                <p>Like to code and to know about computers</p><br>
+                <p>I m persuing Btech in Electrnics and Communicationn Engineering (Final Year) from IPEC, Ghaziabad college. <br/>
+                     I started learning web development from my 1st year. I m self taught.<br/>
+                     I learned from <span>YouTube</span> tutorials, and websites like <span>w3Schools, Mozilla Web Developers and Google Web Developers</span>.<br/>
+                     Some of my projects which I have made are shown below.
+                </p>
+                <p>
+                    Getting Udacity Google-India Challange Scholarship for Nanodegree in Web Front-End Development is a great oppertunity to learn and meet new people in Slack and forum. 
+                </p>
+            </div>
+    </div>
+
+    <!-- work prfile -->
+    <div class="container2">
+        <h2 class="heading" id="ws">Some of my Work Sample</h2>
+        <div class="wrapper">
+            <div class="s s1">
+                <h3>Travel-Booking-Site-Frontend</h3>
+                <a href="https://deeppurohit.github.io/Travel-Booking-Site-Frontend/"><img src="images/Screenshot from 2018-06-05 20-44-39.png" alt="sample1" ></a>
+            </div>
+            <div class="s s2">
+                <h3>Image_Slide_Show</h3>
+                <a href="https://deeppurohit.github.io/Image_Slide_Show/"><img src="images/Screenshot from 2018-06-05 20-46-32.png" alt="sample2"></a>
+            </div>
+            <div class="s s3">
+                <h3>Beautiful-Animations</h3>
+                <a href="https://deeppurohit.github.io/Beautiful-Animation/"><img src="images/Screenshot from 2018-06-05 20-47-20.png" alt="sample3"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foo">
+        <h3 id="contact">Links To Follow Me</h3>
+        <a href="https://www.linkedin.com/in/deep-purohit-391759130"><img class="icon linkedin" src="images/linkedin.png" alt="linkedin"></a>
+        <a href="https://github.com/DeepPurohit"><img class="icon git" src="images/github-icon.svg"></a>
+        <h4>Email id: <i>purohitdeep05@gmail.com</i></h4>
+    </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+
+    <script>
+    
+        const btn = $(".nav_toggle");
+        const menu = $(".nav-item");
+        const about = $(".container");
+        const work = $(".container2");
+        btn.click(function(){
+            menu.slideToggle();
+        });
+    </script>
+
+
+</body>
+</html>
