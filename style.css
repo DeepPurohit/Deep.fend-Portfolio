@@ -24,7 +24,7 @@ body{
 .navbar .logo{
     color: #fff;
     font: italic bold 1.5em/2.5 Cursive;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .navbar .nav_toggle{
@@ -222,13 +222,21 @@ body{
     border-radius: 100%;
 }
 
+.disp{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
 @media screen and (max-width: 1024px){
     .navbar .nav_toggle{
         display: block;
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1024px){
+@media screen and (min-width: 500px) and (max-width: 1020px){
     .navbar{
         height: auto;
         display: block;

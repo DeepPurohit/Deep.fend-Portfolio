@@ -95,11 +95,25 @@
     
         const btn = $(".nav_toggle");
         const menu = $(".nav-item");
-        const about = $(".container");
-        const work = $(".container2");
+        
         btn.click(function(){
             menu.slideToggle();
         });
+
+    // if($(window).width()>1024){
+    //     menu.css({"display":"block"});
+    // }
+
+     $(window).resize(function() {
+  if ($(window).width() < 1024) {
+    menu.css({"display":"none"});
+  }
+ else {
+    menu.css({"display":"block"});
+ }
+});
+
+
     </script>
 
 
