@@ -39,6 +39,10 @@ body{
     font-size: 1.5em;
 }
 
+.navbar .nav{
+    order: 1;
+}
+
 .navbar .nav .nav-item li{
     float: left;
     width: 100px;
@@ -69,6 +73,7 @@ body{
     margin-top: 20px;
     text-align: center;
     margin-right: 2%; 
+    order: 2;
 }
 
 .navbar .name h3{
@@ -97,7 +102,7 @@ body{
 
 .container .pic{
     padding: 4em;
-    margin: 40px;
+    /* margin: 40px; */
 }
 
 .container .pic img{
@@ -159,8 +164,9 @@ body{
 }
 
 .container2 .wrapper .s h3{
-    color: #fff;
+    color: #dff;
     font-size: 1.5em;
+    text-align: center;
     margin: 5px;
 }
 
@@ -307,16 +313,15 @@ body{
     .container .pic{
         width: 100%;
         padding: 0;
-        margin: 0 auto;
     }
 
     .container .pic img{
         /* margin-top: 15px; */
         width: 300px;
         height: 240px;
-        margin-left: 27%;
+        /* margin-left: 27%; */
         border: 5px groove #fdf;
-        box-shadow: 15px 8px 10px #aaa;
+        /* box-shadow: 10px 8px 10px #aaa; */
     }
 
     .container .intro{
@@ -418,9 +423,13 @@ body{
         margin-top: 15px; 
         width: 200px;
         height: 200px;
-        margin-left: 25%;
+        /* margin-left: 25%; */
         border: 5px groove #fdf;
-        box-shadow: 15px 8px 10px #aaa;
+        /* box-shadow: 15px 8px 10px #aaa; */
+    }
+
+    .heading{
+        font-size: 2em;
     }
 
     .container .intro{
