@@ -14,10 +14,12 @@ body{
 /* Navbar styling */
 .navbar{
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
+    height: auto;
     background-color: #053e6d;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
     order:0;
 }
 
@@ -45,7 +47,7 @@ body{
 
 .navbar .nav .nav-item li{
     float: left;
-    width: 100px;
+    width: 140px;
     /* padding: 0 5px; */
     list-style: none;
     text-align: center;
@@ -54,8 +56,10 @@ body{
 .navbar .nav .nav-item li a{
     text-decoration: none;
     line-height: 100px;
+    font-size: 1em;
     color: #ddd;
     display: block;
+    border-radius: 30px 10px 30px 10px;
 }
 
 .navbar .nav .nav-item li a:hover{
@@ -63,8 +67,7 @@ body{
     color: #222;
     font-weight: bold;
     text-decoration: underline;
-    border-radius: 50%;
-    box-shadow: 3px 3px #888;
+    /* box-shadow: 3px 3px #888; */
     transition: 0.3s;
 }
 
@@ -236,7 +239,7 @@ body{
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1020px){
+@media screen and (min-width: 500px) and (max-width: 1024px){
     .navbar{
         height: auto;
         display: block;
@@ -410,7 +413,7 @@ body{
         margin-top: -10px;
         width: 100%;
         text-align: center;
-
+        font-size: 0.7em;
     }
 
     .container{
@@ -429,8 +432,8 @@ body{
 
     .container .pic img{
         margin-top: 15px; 
-        width: 200px;
-        height: 200px;
+        width: 170px;
+        height: 170px;
         /* margin-left: 25%; */
         border: 5px groove #fdf;
         /* box-shadow: 15px 8px 10px #aaa; */
