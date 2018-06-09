@@ -45,9 +45,13 @@ body{
     order: 1;
 }
 
+.navbar .nav .nav-item{
+    padding-top: 20px;
+}
+
 .navbar .nav .nav-item li{
     float: left;
-    width: 140px;
+    width: 150px;
     /* padding: 0 5px; */
     list-style: none;
     text-align: center;
@@ -55,20 +59,22 @@ body{
 
 .navbar .nav .nav-item li a{
     text-decoration: none;
-    line-height: 100px;
+    line-height: 60px;
+    height: 70px;
     font-size: 1em;
-    color: #ddd;
+    color: lime;
     display: block;
-    border-radius: 30px 10px 30px 10px;
+    border-radius: 30px 0px 30px 0px;
 }
 
 .navbar .nav .nav-item li a:hover{
-    background: white;
-    color: #222;
+    background: lime;
+    color: #772525;
+    font-size: 1.1em;
     font-weight: bold;
-    text-decoration: underline;
     /* box-shadow: 3px 3px #888; */
-    transition: 0.3s;
+    border: 5px groove #ccc;
+    transition: 0.5s;
 }
 
 .navbar .name{
