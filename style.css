@@ -130,6 +130,7 @@ body{
     /* padding-right: 20px; */
     text-align: justify;
     padding-top: 30px;
+    padding-left: 2%;
     font-size: 1.4em;
     /* font-weight: lighter; */
 }
@@ -354,7 +355,6 @@ body{
     .container .intro{
         display: block;
         width: 100%;
-        text-align: center;
         font-size: 1.2em;
         padding: 2%;
     }
@@ -442,7 +442,7 @@ body{
 
     .container .pic{
         width: 100%;
-        padding: 0;
+        padding: 0px;
         margin: 0;
     }
 
@@ -460,9 +460,9 @@ body{
     }
 
     .container .intro{
-        display: block;
+        /* display: block;
         width: 100%;
-        text-align: center;
+        text-align: center; */
         font-size: 1.1em;
         padding: 2%;
     }
