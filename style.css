@@ -24,9 +24,13 @@ body{
 }
 
 .navbar .logo{
-    color: #fff;
-    font: italic bold 1.5em/2.5 Cursive;
+    padding-top: 10px;
     margin-left: 5%;
+    height: 70px;
+}
+
+.navbar .logo img{
+    height: inherit;
 }
 
 .navbar .nav_toggle{
@@ -208,13 +212,13 @@ body{
 
 .foo{
     width: 100%;
-    height: 150px;
+    height: auto;
     background: #333;
     bottom: 0;
     order: 3;
     text-align: center;
     color: #fff;
-    padding-top: 25px;
+    padding: 20px 0;
 }
 
 .foo .icon{
